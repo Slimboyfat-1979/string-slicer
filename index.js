@@ -73,3 +73,4 @@ function renderMetadata(data) {
     fieldSet.appendChild(pre)
     fieldSet.scrollTop = fieldSet.scrollHeight
 }
+
