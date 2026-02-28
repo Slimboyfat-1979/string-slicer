@@ -33,6 +33,7 @@ body {
   outline: none;
   font-size: 100%;
   font-family: monospace;
+  text-align: center;
 }
 
 .input p {
@@ -41,11 +42,13 @@ body {
   text-align: center;
   font-size: 2rem;
   font-family: "Cinzel Decorative", serif;
+  min-height: 50px;
 }
 
 .slicer {
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 
 .form-control {
@@ -77,4 +80,27 @@ body {
   font-family: "Cinzel Decorative", serif;
    font-size: 2rem;
    margin-top: 40px;
+   min-height: 50px;
 }
+
+fieldset {
+    margin-top: 20px;
+    height: 250px;
+    width: 900px;
+    border-radius: 10px;
+    background-color: #0e0e0e;
+    color: white;
+    padding: 30px 30px;
+    font-family: monospace;
+    overflow-y: scroll;
+    font-size: 1rem;
+ 
+}
+
+fieldset legend {
+    /* margin-left: 1px; */
+    color: white;
+    font-family: "Cinzel Decorative", serif;
+}
+
+
